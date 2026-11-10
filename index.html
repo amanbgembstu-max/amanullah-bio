@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amanullah — Molecular Biotechnology & Bioinformatics</title>
+<meta name="description" content="Amanullah — M.Sc. Molecular Biotechnology (Hochschule Anhalt). Building toward computational biology: NGS, single-cell and variant analysis.">
+<link rel="canonical" href="https://amanullah.dev/">
+<meta property="og:title" content="Amanullah — Molecular Biotechnology & Bioinformatics">
+<meta property="og:description" content="From the wet lab to the pipeline: NGS, single-cell and variant analysis.">
+<meta property="og:url" content="https://amanullah.dev/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://amanullah.dev/amanullah.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap top-row">
+    <a class="mark" href="/" aria-label="Amanullah — home">A<span>.</span></a>
+    <nav aria-label="Sections">
+      <a href="#focus">Focus</a>
+      <a href="#path">Path</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <picture class="photo">
+      <source srcset="/amanullah.webp" type="image/webp">
+      <img src="/amanullah.jpg" alt="Portrait of Amanullah" width="480" height="480">
+    </picture>
+    <p class="kicker">Molecular Biotechnology · Bioinformatics · Germany</p>
+    <h1>Amanullah</h1>
+    <p class="lead">I trained at the bench in biotechnology and genetic engineering, and I am now building the computational side: turning sequencing data into answers a lab can act on.</p>
+    <div class="seq" aria-hidden="true">
+      <span>A</span><span>T</span><span>G</span><span>G</span><span>C</span><span>A</span><span>A</span><span>T</span><span>G</span><span>C</span><span>T</span><span>A</span><span>G</span>
+    </div>
+    <p class="now"><span class="dot" aria-hidden="true"></span>Currently: M.Sc. Molecular Biotechnology, Hochschule Anhalt</p>
+  </section>
+
+  <section id="focus" class="wrap block">
+    <h2><span class="num">01</span>Focus</h2>
+    <div class="grid3">
+      <article>
+        <h3>Bulk &amp; single-cell RNA-seq</h3>
+        <p>From raw FASTQ to differential expression and pathways, with statistics that hold up: proper normalisation, batch handling and donor-level testing.</p>
+      </article>
+      <article>
+        <h3>Variant analysis</h3>
+        <p>Germline and somatic calling, annotation and benchmarking against truth sets, the way diagnostics labs need it.</p>
+      </article>
+      <article>
+        <h3>Reproducible pipelines</h3>
+        <p>Containerised, tested workflows that other scientists can run, and validation written for regulated environments.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="path" class="wrap block">
+    <h2><span class="num">02</span>Path</h2>
+    <ol class="timeline">
+      <li>
+        <p class="when">Now</p>
+        <div>
+          <h3>M.Sc. Molecular Biotechnology</h3>
+          <p class="where">Hochschule Anhalt, Germany</p>
+          <p>Molecular genetics and genetic engineering, cell culture and tissue engineering, cellular signal transduction, recombinant protein production, pharmaceutical biotechnology. Electives in NGS &amp; bioinformatics and omics technologies.</p>
+        </div>
+      </li>
+      <li>
+        <p class="when">Since 2022</p>
+        <div>
+          <h3>Founder &amp; mentor, GISAC</h3>
+          <p class="where"><a href="https://gisac-abroad.com" rel="noopener">gisac-abroad.com</a></p>
+          <p>I teach GRE and IELTS and guide Bangladeshi students through Master's and PhD applications worldwide.</p>
+        </div>
+      </li>
+      <li>
+        <p class="when">Bachelor</p>
+        <div>
+          <h3>B.Sc. (Hons.) Biotechnology &amp; Genetic Engineering</h3>
+          <p class="where">Mawlana Bhashani Science and Technology University, Bangladesh</p>
+          <p>Molecular biology, human and molecular genetics, immunology, recombinant DNA technology, bioinformatics and computational biology, analytical methods, molecular diagnostics.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="work" class="wrap block">
+    <h2><span class="num">03</span>Work in progress</h2>
+    <p class="note">Each project will be published here with its code, data source and an honest note on limitations.</p>
+    <ul class="projects">
+      <li><span class="tag">RNA-seq</span><div><h3>Glucocorticoid response in airway smooth muscle</h3><p>End-to-end bulk RNA-seq on public data: Salmon, DESeq2, gene-set enrichment.</p></div><span class="status">Planned</span></li>
+      <li><span class="tag">Pipeline</span><div><h3>A tested Nextflow RNA-seq workflow</h3><p>Containerised, with test data and continuous integration, compared against nf-core/rnaseq.</p></div><span class="status">Planned</span></li>
+      <li><span class="tag">Single-cell</span><div><h3>Disease versus healthy, donor by donor</h3><p>Single-cell RNA-seq with integration, annotation and pseudobulk differential expression.</p></div><span class="status">Planned</span></li>
+      <li><span class="tag">Variants</span><div><h3>Germline calling, benchmarked on GIAB HG002</h3><p>GATK and DeepVariant, measured for precision and recall against the truth set.</p></div><span class="status">Planned</span></li>
+      <li><span class="tag">Quality</span><div><h3>Validating a variant pipeline</h3><p>A validation report in the style of ISO 15189: accuracy, precision, coverage limits, change control.</p></div><span class="status">Planned</span></li>
+    </ul>
+  </section>
+
+  <section class="wrap block">
+    <h2><span class="num">04</span>Toolbox</h2>
+    <dl class="tools">
+      <div><dt>Wet lab</dt><dd>DNA &amp; RNA isolation, PCR, gel electrophoresis, Southern &amp; Western blotting, ELISA, cell and tissue culture</dd></div>
+      <div><dt>Learning now</dt><dd>Python, Linux &amp; bash, Git, R</dd></div>
+      <div><dt>Languages</dt><dd>Bengali (native) · English · German (B2, in progress)</dd></div>
+    </dl>
+  </section>
+
+  <section id="contact" class="wrap block contact">
+    <h2><span class="num">05</span>Contact</h2>
+    <p>Open to a Master's thesis, a working-student role or a conversation about bioinformatics in Germany.</p>
+    <p class="links">
+      <a href="mailto:aman.kuleuven@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/ali-hossain-amanullah/" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/amanbgembstu-max" rel="noopener">GitHub</a>
+    </p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>© 2026 Amanullah · amanullah.dev</p>
+</footer>
+</body>
+</html>
